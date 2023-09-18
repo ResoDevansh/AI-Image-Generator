@@ -1,0 +1,30 @@
+section{
+    border: 1px solid green;
+}
+#heading{
+    font-weight: 700;
+    font-size: 1.5em;
+    /* border: 1px solid blue; */
+    padding: 3%;
+    padding-bottom: .5%;
+}
+#subheading{
+    padding-left: 3%;
+    font-size: .9rem;
+    font-weight: 500;
+    color: #0D0454;
+}
+.search-text{
+    font-size: .7em;
+    font-weight: normal;
+    color: red;
+    border: 1px solid brown;
+    padding-left: 3%;
+    text-transform: capitalize;
+}
+.alt-text-render {
+    padding-left: 3%;
+}
+.form-field{
+    /* border: 1px solid red; */
+}

@@ -1,0 +1,55 @@
+label{
+    /* border: 1px solid green;  */
+    position: relative;
+    left: 3%;
+    font-size: 1em;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: .1%;
+}
+.btn{
+    position: relative;
+    left: 5%;
+    padding: .5%;
+    background-image: linear-gradient(to right,aqua,pink);
+    border-radius: 5%;
+    border: 1px inset blueviolet;
+    font-weight: 600;
+    transition: all 200ms ease-in-out;
+}
+.btn:hover{
+    color: red;
+    transform: scale(1.05);
+}
+.btn:hover{
+    cursor: pointer;
+}
+.form-input{
+    position: relative;
+    left: 3%;
+    top: 1vh;
+    display: inline-block;
+    width: 30%;
+    padding: .3%;
+    border: 1px blueviolet inset;
+    color: brown;
+    font-weight: 600;
+}   
+.form-field{
+    /* border: 1px solid black; */
+    margin: 1% 0%;
+}
+.labelandbutton{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: flex-end;
+}
+.labelandbutton > label{
+    /* border: 1px solid black; */
+    color: darkmagenta;
+    font-weight: 700;
+    background-color: aliceblue;
+    padding: .5%;
+    pointer-events: none;
+    width: 10%;
+}

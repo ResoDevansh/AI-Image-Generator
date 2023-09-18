@@ -1,0 +1,58 @@
+form {
+  /* border: 2px dotted brown ; */
+  margin-top: 1%;
+}
+.preview-photo {
+  height: 15em;
+  width: 15em;
+  margin-left: 2%;
+}
+.generate-btn {
+  position: relative;
+  top: -8em;
+  left: 3%;
+}
+.generate-btn button {
+  position: relative;
+  padding: 0.7em;
+  width: 90%;
+  letter-spacing: 0.06em;
+  background-color: green;
+  border-radius: 2%;
+  overflow: hidden;
+  color: white;
+  font-weight: 600;
+  font-size: 1em;
+  box-sizing: content-box;
+  border: 1px inset black;
+}
+.generate-btn button:active {
+  border: 1px solid black;
+  background-color: blue;
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.75);
+}
+.footer {
+  /* background-color: pink; */
+  position: relative;
+  top: -6em;
+  left: 3%;
+  font-weight: 700;
+  font-size: 1.2em;
+  color: blue;
+}
+.footer button {
+  padding: 0.5em;
+  font-weight: 600;
+  color: blue;
+  transition: all 100ms ease-in-out;
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(241, 26, 26, 0.75);
+  -moz-box-shadow: 0px 0px 2px 2px rgba(239, 24, 24, 0.75);
+  box-shadow: 0px 0px 2px 2px rgba(248, 70, 70, 0.75);
+}
+.footer button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  color: brown;
+}

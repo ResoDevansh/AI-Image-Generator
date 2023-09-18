@@ -1,0 +1,25 @@
+img{
+  height: 1.8em;
+  object-fit: cover;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid blue; */
+  padding: .5em 2.5em .5em 3em;
+  background-color: #ffffff;
+}
+#create{
+  text-decoration: none;
+}
+#create>div{
+  color: white;
+  background-color: #738AF8;
+  padding: .3em 1em .4em 1em;
+  border-radius: .3em;
+  font-size: 1em;
+}
+.alt-text-render{
+  padding-left: 3%;
+}
